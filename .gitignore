@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/env
+
+# Node & Build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.npm/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary run artifacts
+tunnel_url.txt
+HealthResponse
+frontend/*.jpeg
+frontend/*.jpg
